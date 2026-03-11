@@ -1,121 +1,149 @@
 # PrivateClaw Core
 
-> **Credential-free OpenClaw fork — optimised for Windows and private AI models**
+> Your company's first digital employee — a complete private AI ecosystem for business
 
 [![Status](https://img.shields.io/badge/status-coming%20soon-orange)](https://github.com/privateclaw/privateclaw-core)
 [![Platform](https://img.shields.io/badge/platform-Windows-blue)](https://github.com/privateclaw/privateclaw-core)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Based on](https://img.shields.io/badge/based%20on-OpenClaw-purple)](https://github.com/openclawai/openclaw)
-
----
-
-## 🚧 Build Coming Soon
-
-PrivateClaw Core is currently in active development. The full build will be uploaded here shortly.
-
-**What's coming:**
-- Complete credential-stripped OpenClaw base (the "Adam" config cleaned of all personal data)
-- Windows-native setup scripts (PowerShell, .bat launchers)
-- Pre-configured support for local AI models via Ollama and LM Studio
-- Clean config templates with no hardcoded keys or personal identifiers
-- Windows path handling and environment management fixes
-- Getting started guide for non-technical AI enthusiasts on Windows
+[![Privacy](https://img.shields.io/badge/privacy-local%20first-red)](https://github.com/privateclaw/privateclaw-core)
 
 ---
 
 ## What is PrivateClaw?
 
-PrivateClaw is a privacy-first, Windows-optimised fork of [OpenClaw](https://github.com/openclawai/openclaw) — a powerful open-source AI agent framework.
+PrivateClaw is not just an AI tool — it is your company's first **digital employee**.
 
-The problem PrivateClaw solves: the default OpenClaw "Adam" configuration contains personal credentials, API keys, and personalisation that make it unsuitable for sharing or use as a clean starting point. PrivateClaw strips all of that out to provide a neutral, secure base that anyone can build on top of.
+Built on a credential-free, privacy-hardened fork of [OpenClaw](https://github.com/openclawai/openclaw), PrivateClaw is a complete ecosystem of AI agents, tools and skills designed to run a real business end-to-end. Everything runs **locally on your own hardware**, with your own private models. No data leaves your building. No cloud subscriptions. No API bills.
 
-### Key differences from OpenClaw
-
-| Feature | OpenClaw (Adam) | PrivateClaw |
-|---------|----------------|-------------|
-| Credentials | Hardcoded personal keys | None — clean slate |
-| Platform focus | Linux/Mac primary | Windows-first |
-| Model support | Cloud APIs default | Local models default |
-| Telemetry | Varies | Off by default |
-| Starting point | Personal config | Neutral template |
+Whether you are an AI development team looking for a clean private foundation to build on, or a business owner wanting to deploy AI without a technical team, PrivateClaw is designed for both.
 
 ---
 
-## Planned Architecture
+## The Ecosystem — What PrivateClaw Can Do
 
-    privateclaw-core/
-    |-- config.template.yaml     # Clean config — no keys, ready to customise
-    |-- setup.ps1                # Windows PowerShell setup script
-    |-- requirements.txt         # Python dependencies
-    |-- .env.example             # Environment variable template
-    |-- agents/                  # Agent definitions (credential-free)
-    |-- tools/                   # Tool integrations
-    |-- models/                  # Local model connectors
-    |   |-- ollama.py            # Ollama integration
-    |   |-- lmstudio.py          # LM Studio integration
-    |   |-- openai_compat.py     # Any OpenAI-compatible endpoint
-    |-- docs/
-        |-- windows-setup.md     # Full Windows setup guide
-        |-- private-models.md    # Connecting local AI models
-        |-- credential-guide.md  # How to add your own keys safely
+PrivateClaw ships as a coordinated suite of specialist agents, each owning a business function:
 
----
+### Sales & Revenue
+- **Lead Generation** — prospecting, outreach sequencing, CRM population
+- **Quoting & Proposals** — automated quote generation from templates and pricing data
+- **Follow-up & Nurture** — AI-managed pipeline follow-up without human input
 
-## Quick Preview — Private Model Config
+### Finance & Admin
+- **Finance Admin** — invoice processing, expense categorisation, reporting
+- **Document Handling** — contracts, POs, statements processed and filed automatically
+- **Scheduling & Coordination** — meeting booking, reminders, task assignment
 
-When the build is released, connecting a local model will be as simple as:
+### Web & Digital Presence
+- **Website Building** — AI-generated site content, page creation, CMS management
+- **SEO Optimisation** — keyword research, on-page SEO, meta generation, content gap analysis
+- **Performance Monitoring** — rankings tracking, analytics reporting, recommendations
 
-    model:
-      provider: local
-      base_url: http://localhost:11434/v1   # Ollama
-      model_name: llama3
-      api_key: none
-
-No cloud accounts. No API bills. No data leaving your machine.
+### Content Creation
+- **Written Content** — blog posts, product descriptions, email campaigns, ad copy
+- **Image Generation** — AI-generated visuals via ComfyUI integration
+- **Video Generation** — short-form video content production (ComfyUI video pipeline)
+- **Social Media Management** — scheduled posting, caption generation, platform optimisation
 
 ---
 
-## Supported Local Model Servers
+## Who is PrivateClaw For?
 
-- **Ollama** — easiest Windows install, runs Llama, Mistral, Phi, Qwen and more
-- **LM Studio** — GUI-based, great for non-technical users
-- **Any OpenAI-compatible endpoint** — self-hosted vLLM, LiteLLM, Jan, etc.
+### AI Development Teams
+A clean, credential-stripped OpenClaw base with Windows-native tooling. No personal config polluting your foundation. Deploy fast, build on top, stay private.
+
+### Business Owners (Non-Technical)
+PrivateClaw is designed so that non-technical users can deploy AI into their business operations. Guided setup, plain-language configuration, and documented workflows mean you do not need a developer to get started.
+
+### AI Enthusiasts
+Explore a full agentic business stack on your own hardware. Run powerful local models, experiment with ComfyUI video pipelines, and build your own custom agents on a solid foundation.
 
 ---
 
-## Why Windows?
+## Hardware Reality Check
 
-Most open-source AI agent frameworks are built and tested on Linux/Mac. Windows users often face:
+OpenClaw runs on low-spec hardware. PrivateClaw will too — for basic tasks.
 
-- Path separator issues (backslash vs forward slash)
-- Virtual environment activation differences
-- Missing bash/shell script support
-- CUDA/GPU setup complexity
+But to run **good local models** and the full content creation pipeline (including ComfyUI image and video generation), you need capable hardware. We are honest about this:
 
-PrivateClaw addresses all of these with Windows-native scripts and tested Windows workflows.
+| Hardware Tier | What You Can Run | Approx. Cost |
+|---------------|-----------------|-------------|
+| Basic (8GB RAM) | Light agents, small models (Phi, Gemma 2B) | Under £500 |
+| Mid (16GB RAM, integrated GPU) | Medium models (Llama 3 8B), basic agents | £800 - £1,500 |
+| Capable (dedicated GPU, 16GB VRAM) | Full stack, ComfyUI images, good LLMs | £1,500 - £2,500 |
+| Full Power | ComfyUI video, large models, full pipeline | £2,500+ |
+
+**Our honest advice: to get real traction with the full PrivateClaw ecosystem, budget upwards of £2,500.**
+
+### Hardware We Can Recommend or Supply
+
+We advise on and can assist sourcing hardware suited to your budget and use case:
+
+- **Mac Mini (M4/M4 Pro)** — excellent performance per pound, unified memory handles large models well
+- **Olares One** — purpose-built private AI home server, clean NAS + compute combo
+- **Nvidia Spark** — compact but powerful, ideal for local AI workloads
+- **Windows NPU/Memory-Shared Machines** — modern Copilot+ PCs with NPU acceleration, good Windows-native experience
+- **Custom GPU Workstations** — for teams needing maximum throughput on ComfyUI and video pipelines
+
+---
+
+## Tech Stack
+
+PrivateClaw integrates a curated set of open-source tools:
+
+| Component | Purpose |
+|-----------|---------|
+| OpenClaw (base) | Agent orchestration framework |
+| Ollama | Local LLM server (Llama, Mistral, Phi, Qwen, etc.) |
+| LM Studio | GUI model management and serving |
+| ComfyUI | Image and video generation pipeline |
+| Claude Desktop | Claude integration via MCP |
+| Claude Code | AI-assisted development |
+| Docker | Containerised service deployment |
+| n8n / Make | Workflow automation connectors |
+
+---
+
+## 🚧 Build Coming Soon
+
+The full PrivateClaw Core build is in active development and will be released here shortly.
+
+**What ships in the first release:**
+- Credential-stripped OpenClaw base (no personal data, no hardcoded keys)
+- Windows PowerShell setup scripts
+- config.template.yaml — clean starting config
+- Core business agents: lead gen, quoting, finance admin, content creation
+- ComfyUI integration guides for Windows
+- Local model configuration for Ollama and LM Studio
+- Hardware selection guide
+
+---
+
+## Getting Started Preview
+
+    git clone https://github.com/privateclaw/privateclaw-core.git
+    cd privateclaw-core
+    python -m venv .venv
+    .venv\Scripts\activate
+    pip install -r requirements.txt
+    copy config.template.yaml config.yaml
+
+Point config.yaml at your local Ollama or LM Studio endpoint. No cloud keys needed.
 
 ---
 
 ## Stay Updated
 
-Watch this repository to be notified when the build drops.
+Watch this repository to be notified on release.
 
 - GitHub: [github.com/privateclaw](https://github.com/privateclaw)
 - Website: [www.totalgroup.co.uk](https://www.totalgroup.co.uk)
 
 ---
 
-## Contributing
-
-Once the initial build is released, contributions are welcome. Please open an issue first to discuss what you would like to change.
-
----
-
 ## License
 
-MIT License — see [LICENSE](LICENSE) for details.
-
-PrivateClaw is a derivative work based on OpenClaw. Full credit to the original OpenClaw contributors.
+MIT — see [LICENSE](LICENSE). Based on OpenClaw. Full credit to the original OpenClaw contributors.
 
 ---
 
