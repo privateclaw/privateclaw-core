@@ -43,7 +43,7 @@ Explore a full agentic business stack on your own hardware. Run powerful local m
 
 This is a Field of Dreams story.
 
-Our team's first use of AI was in 2013 — IBM Watson, automating overnight backups. We would sit and watch the video of virtual machines spinning up, one by one, just to truly verify they had started. That was the standard of proof available to us then. It was painstaking. It was manual. And it was extraordinary. We were watching a machine make decisions, and we knew — even then — that what was coming would change everything.
+Our team's first use of AI was in 2013 — IBM Watson, automating and truly verifying overnight backups. We had the IBM Watson super computer watch video of virtual backup machines start up, one by one, and he would reason and truly verify they had started. A full time job for 2 engineer that was hard to scale and with a 6% error rate became a £300 monthly cost with 100% suvcess that was infinately scaleable. This was all the proof we needed — that what was coming would change everything.
 
 That conviction never left us. For the next decade we kept building, kept automating, kept watching the space. True early adopters, not in the trendy sense but in the real sense: teams who commit to a direction before the technology is ready, before the market validates it, before anyone else believes it will work.
 
