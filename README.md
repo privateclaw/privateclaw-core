@@ -37,6 +37,40 @@ Explore a full agentic business stack on your own hardware. Run powerful local m
 
 ---
 
+## The Story Behind PrivateClaw
+
+### If You Build It, They Will Come
+
+This is a Field of Dreams story.
+
+Our team's first use of AI was in 2013 — IBM Watson, automating overnight backups. We would sit and watch the video of virtual machines spinning up, one by one, just to truly verify they had started. That was the standard of proof available to us then. It was painstaking. It was manual. And it was extraordinary. We were watching a machine make decisions, and we knew — even then — that what was coming would change everything.
+
+That conviction never left us. For the next decade we kept building, kept automating, kept watching the space. True early adopters, not in the trendy sense but in the real sense: teams who commit to a direction before the technology is ready, before the market validates it, before anyone else believes it will work.
+
+Two years ago we began building the local AI stack that would eventually become PrivateClaw. At that point, the GPU hardware we needed was barely accessible, and the open-source models that would make local inference genuinely useful did not yet exist. We built in hope. In the belief that model size and performance would catch up. That if we laid the infrastructure now, the intelligence to run on it would arrive.
+
+It has arrived. This year. And with Claude Sonnet 4.6, it has arrived with a step change that makes everything we spent two years building not just possible — but transformative.
+
+### What That Looks Like in Practice
+
+The SEO example is the one we keep coming back to because it captures the before and after so clearly.
+
+A comprehensive technical SEO audit — the kind that identifies crawl errors, canonicalisation issues, page speed problems, schema gaps, internal linking failures, and content optimisation opportunities across an entire website — is work that would traditionally take an experienced SEO consultant days to complete properly. Hundreds of hours of accumulated expertise distilled into a methodology, applied manually, billed accordingly.
+
+Our SEO agent, connected to the WordPress MCP server, produced an audit on a par with leading commercial tools like Yoast — and then, in the same session, without a developer, without tickets, without a single back-and-forth — resolved the issues it found. Start to finish, in seconds.
+
+Not because we cut corners. Because two years of infrastructure work meant the agent had everything it needed: live system access via MCP, web research via SearXNG, vector memory of the site's history via Qdrant, and Claude Sonnet 4.6 reasoning across all of it simultaneously.
+
+This is what the stack unlocks. Not a clever demo. A genuine capability that compounds — every week the agents run, they get better. Every document added to the vault, every workflow completed, every customer interaction stored — the system learns your business more deeply than any SaaS tool ever will, because it runs on your data, under your control, for your benefit.
+
+### For the AI Builders Reading This
+
+If you're an AI developer or enthusiast looking at this stack — you'll understand immediately how much is here. The infrastructure decisions, the agent tier design, the RAG architecture, the MCP integration pattern — these aren't theoretical. They are the result of two years of real-world iteration on a live business, tested against actual business problems, refined through actual failures.
+
+We are sharing this because we believe the next wave of AI value creation happens at the company level, not the model level. The models are good enough. What most businesses lack is the infrastructure to use them privately, the architecture to deploy them reliably, and the experience to know what actually works versus what sounds good in a blog post.
+
+PrivateClaw is that infrastructure. Built by people who have been doing this since Watson was watching VMs spin up — and who never stopped believing that if you build it, they will come.
+
 ## Why This Stack Is a Game Changer
 
 The combination of Claude Sonnet 4.6 + Claude Desktop + MCP (Model Context Protocol) represents a step change in what a non-coder can build and operate. MCP is an open standard that lets Claude Desktop connect directly and securely to your live systems — your CRM, your accounting platform, your workflows, your files, your agents — and Sonnet 4.6 reasons across all of them simultaneously, in a single conversation.
@@ -46,7 +80,6 @@ This isn't a chatbot. It's a reasoning layer that sits across your entire busine
 **A real example from our own business:** Our SEO agent analysed a live WordPress site and produced a world-class technical audit on a par with leading commercial tools like Yoast. But because the WordPress MCP was connected at the same time, the agent didn't just report the issues — it immediately resolved them. Same session, same conversation. No developer. No tickets. No back-and-forth. The outcome we needed, done.
 
 This pattern repeats across every business function the stack covers: finance, CRM, HR, content, job monitoring, transcription, and more. The stack described in this repo is the result of a year of real-world development on a live business — now packaged as a reusable framework so you can get there without starting from scratch.
-
 ---
 
 ## Core Design Principles
