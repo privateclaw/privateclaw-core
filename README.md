@@ -2,7 +2,7 @@
 
 [![Status](https://img.shields.io/badge/status-coming%20soon-orange)](https://github.com/privateclaw/privateclaw-core)
 [![Platform](https://img.shields.io/badge/platform-Windows-blue)](https://github.com/privateclaw/privateclaw-core)
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Licence](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Based on](https://img.shields.io/badge/based%20on-OpenClaw-purple)](https://github.com/openclawai/openclaw)
 [![Privacy](https://img.shields.io/badge/privacy-local%20first-red)](https://github.com/privateclaw/privateclaw-core)
 
@@ -77,7 +77,7 @@ The combination of Claude Sonnet 4.6 + Claude Desktop + MCP (Model Context Proto
 
 This isn't a chatbot. It's a reasoning layer that sits across your entire business stack and can both understand and act.
 
-**A real example from our own business:** Our SEO agent analysed a live WordPress site and produced a world-class technical audit on a par with leading commercial tools like Yoast. But because the WordPress MCP was connected at the same time, the agent didn't just report the issues — it immediately resolved them. Same session, same conversation. No developer. No tickets. No back-and-forth. The outcome we needed, done.
+**Dont prompt and hope for an outcome:** With Sonnet 4.6 you no longer need craft an amasing prompt in the hope you might get an outcome. INstead you can prompt the problems you face the outcomes you desire the retraints you have like hardware, money privacy, the resources you have available your stack and let the AI determine the prompt and actions. With simple tools like Anthopics Desktop Commander and increasingly widely available MCOP like word press and Xero you now get outcomes rather than recommendations.
 
 This pattern repeats across every business function the stack covers: finance, CRM, HR, content, job monitoring, transcription, and more. The stack described in this repo is the result of a year of real-world development on a live business — now packaged as a reusable framework so you can get there without starting from scratch.
 ---
@@ -484,7 +484,7 @@ privateclaw/
 
 ## 🚧 Build Coming Soon
 
-This repository will be populated with the full PrivateClaw stack shortly. Watch this repo to be notified on release.
+This repository will be populated with the full PrivatheClaw stack shortly. Watch this repo to be notified on release.
 
 - GitHub: [github.com/privateclaw](https://github.com/privateclaw)
 - Website: [www.totalgroup.co.uk](https://www.totalgroup.co.uk)
@@ -493,4 +493,4 @@ This repository will be populated with the full PrivateClaw stack shortly. Watch
 
 *PrivateClaw — Private AI infrastructure for businesses that want the power of frontier AI with the privacy and cost control of local deployment.*
 
-*Built by [@privateclaw](https://github.com/privateclaw) · Total Group International · MIT License · Based on OpenClaw*
+*Built by [@privateclaw](https://github.com/privateclaw) · Total Group International · MIT Licence · Based on OpenClaw*
