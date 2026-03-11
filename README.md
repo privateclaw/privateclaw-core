@@ -53,7 +53,7 @@ PrivateClaw ships as a coordinated suite of specialist agents, each owning a bus
 A clean, credential-stripped OpenClaw base with Windows-native tooling. No personal config polluting your foundation. Deploy fast, build on top, stay private.
 
 ### Business Owners (Non-Technical)
-PrivateClaw is designed so that non-technical users can deploy AI into their business operations. Guided setup, plain-language configuration, and documented workflows mean you do not need a developer to get started.
+Just connect Claude Desktop and start a conversation. No developer needed. We are consistently amazed at how a deliberately rough, imperfect prompt still produces outstanding results with Claude Sonnet 4.6 — the model does the heavy lifting so you do not have to.
 
 ### AI Enthusiasts
 Explore a full agentic business stack on your own hardware. Run powerful local models, experiment with ComfyUI video pipelines, and build your own custom agents on a solid foundation.
